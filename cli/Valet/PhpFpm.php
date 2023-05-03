@@ -390,7 +390,7 @@ class PhpFpm
             $version = $this->getPhpVersion();
         }
 
-        return "php{$version}-fpm";
+        return "php-fpm";
 
     }
 
